@@ -1,0 +1,73 @@
+header {
+  background-color: #000000;
+
+  .logo {
+    height: 90px;
+    width: 90px;
+  }
+
+  .alignText {
+    padding-left: 12px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .alignObjects {
+    display: flex;
+    align-items: center;
+  }
+
+  .styleLinks {
+    padding-left: 120px;
+    height: 100px;
+  }
+
+  .cageHeight {
+    height: 100px;
+  }
+
+  .trans {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .trans:hover {
+    transition: all 0.2s;
+    border-bottom: solid #1dbd45 3px;
+  }
+
+  .styleFont {
+    color: #ffff;
+    font-size: 90%;
+    font-weight: bold;
+    margin: 10px;
+  }
+
+  #menuBurguer {
+    color: #ffff;
+  }
+
+  h4 {
+    color: #ffff;
+    font-weight: bold;
+  }
+
+  h6 {
+    color: #ffff;
+    font-weight: bold;
+  }
+
+  @media screen and (max-width: 470px) {
+    .logo {
+      width: 60px;
+      height: 60px;
+    }
+    h4 {
+      font-size: 60%;
+    }
+    h6 {
+      font-size: 60%;
+    }
+  }
+}
